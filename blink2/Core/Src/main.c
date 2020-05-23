@@ -66,8 +66,6 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
-	uint32_t dell = 5;
-	dell = 3;
   /* USER CODE END 1 */
   
 
