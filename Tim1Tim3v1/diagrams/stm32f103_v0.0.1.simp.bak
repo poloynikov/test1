@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.40" multi-file="no" uid="simpa96a45631cc941dcab3dee4a5c31021c">
+  <meta>
+    <name>stm32f103_v0.0.1</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="node" type="Node" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="artifact" type="Artifact" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="component" type-id="component" type="Component" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-required-interface-end" type="Required Interface End" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="port" type="Port" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>217</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="node" type="Node" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="artifact" type="Artifact" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="association-class-link" type="Association Class Link" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="component" type="Component" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="deployment" type="Deployment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-required-interface-end" type="Required Interface End" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-required-interface-connector" type="Required Interface Connector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="port" type="Port" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlDeploymentDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>9</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.RuleField</type>
+        <value>10</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-cb3abb85c552461cb81d4128da5c364c" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-bff3724ee1634602a3cd4fb2b065cc53" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items>
+    <item id="9f8c5d267d5f4c798a7fc4a104dee260" cid="GROUP089" type="group" name="Group" style-class="" creator="" creation-date="04/11/2020 11:16:03" />
+    <item id="4af2c6fd73524d24804394754cbe814a" cid="C001" type="class" name="Class1" style-class="" creator="" creation-date="04/11/2020 11:16:54" visibility="package" />
+    <item id="86c44790080447369861f7a293655dd6" cid="ELEM002" type="association-class-link" name="" style-class="" creator="" creation-date="04/11/2020 11:16:54" />
+    <item id="b6b897563ab4472ab5cce6e883cef53f" cid="RQI001" type="uml-required-interface-end" name="RequiredInterface1" style-class="" creator="" creation-date="04/11/2020 11:22:16">
+      <required-interface />
+    </item>
+    <item id="ae1f6fa816604e8ab0847d663375655b" cid="ELEM004" type="uml-required-interface-connector" name="" style-class="" creator="" creation-date="04/11/2020 11:22:16" from="5902d2ebc5fa44f6b96e3c67f06900b5" to="b6b897563ab4472ab5cce6e883cef53f" />
+    <item id="2f026144d0ad4f568c97648f092b6df7" cid="PORT001" type="port" name="Port1" style-class="" owner="5902d2ebc5fa44f6b96e3c67f06900b5" creator="" creation-date="04/11/2020 11:22:37" visibility="package">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+      <port />
+    </item>
+  </items>
+  <models>
+    <model id="p3c148fa944064469b3a57ee1873bab2f_991446651" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/11/2020 11:11:14</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-deployment" id="p4c8b04501add44568e7677a9331fe6fd_575537441" name="DeploymentDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/11/2020 11:11:14</creation-date>
+          <change-date>04/14/2020 23:09:28</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="e9a21831d84d499ea37ea0d13473f2ee" cid="ELEM001" type="frame" name="Frame1" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:11:56">
+            <frame type="dep" />
+          </item>
+          <item id="2979aeace2cd45a28e5f872a6e2a4cb8" cid="NOD001" type="node" name="Node1" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:12:07" visibility="package">
+            <owned-items>
+              <owned-item ref="3815ba9aca2a4feb92eb28a6a41cc85e" />
+              <owned-item ref="23c872fb77454b5597798806426c6d16" />
+              <owned-item ref="7e8f38dc39b341ec945a9357eff9ee77" />
+              <owned-item ref="fe64e5a2f3ff41c7804a21131c57626f" />
+              <owned-item ref="46a29132359643d5acb91eee61ad4504" />
+            </owned-items>
+            <attributes>
+              <attribute id="a7f1083014bad494980589739a87fe13634" cid="PROP001" name="NewAttribute1" creation-date="04/11/2020 11:14:10" property-ref="3815ba9aca2a4feb92eb28a6a41cc85e" />
+              <attribute id="af77e2a0e4e3d4f589c2b8ebfbc543026514" cid="PROP002" name="NewAttribute2" creation-date="04/11/2020 11:14:11" property-ref="23c872fb77454b5597798806426c6d16" />
+              <attribute id="ac793ce52b0794f669855c5f18a8ccb8b826" cid="PROP003" name="NewAttribute3" creation-date="04/11/2020 11:14:12" property-ref="7e8f38dc39b341ec945a9357eff9ee77" />
+              <attribute id="aefa07a4d7b32433385845490f64710cb153" cid="PROP004" name="NewAttribute4" creation-date="04/11/2020 11:14:16" property-ref="fe64e5a2f3ff41c7804a21131c57626f" />
+              <attribute id="a22820b43995248f38ede5c32d8959727482" cid="PROP005" name="NewAttribute5" creation-date="04/11/2020 11:14:21" property-ref="46a29132359643d5acb91eee61ad4504" />
+            </attributes>
+            <operations>
+              <operation id="o09361960507e4a24a6db014081325b15181" cid="ELEM001" name="NewOperation1" creation-date="04/11/2020 11:14:19" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="26a22a9d8d74493fa48c38d1b3998cb0" cid="AF001" type="artifact" name="Artifact1" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:12:24" visibility="package">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="26a22a9d8d74493fa48c38d1b3998cb0_artifact_c" type="artifact" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="dic2af922e220f4329ae2647b4ad9b1c257299" cid="ELEM003" type="frame" name="Frame2" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:11:56">
+            <frame type="dep" />
+          </item>
+          <item id="013dc0922cd645d7bc211b88a6241cb2" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:12:52" from="e9a21831d84d499ea37ea0d13473f2ee" to="dic2af922e220f4329ae2647b4ad9b1c257299" visibility="package">
+            <relation from="e9a21831d84d499ea37ea0d13473f2ee" to="dic2af922e220f4329ae2647b4ad9b1c257299" derived="false">
+              <start-role id="umlar-207fa0c9-2735-4039-90c0-9f24c082ca82" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2e3e1a00-43d2-4c33-9e25-7cc53dc33067" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="3815ba9aca2a4feb92eb28a6a41cc85e" cid="PROP001" type="property" name="NewAttribute1" style-class="" owner="2979aeace2cd45a28e5f872a6e2a4cb8" creator="" creation-date="04/11/2020 11:14:10" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="23c872fb77454b5597798806426c6d16" cid="PROP002" type="property" name="NewAttribute2" style-class="" owner="2979aeace2cd45a28e5f872a6e2a4cb8" creator="" creation-date="04/11/2020 11:14:11" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="7e8f38dc39b341ec945a9357eff9ee77" cid="PROP003" type="property" name="NewAttribute3" style-class="" owner="2979aeace2cd45a28e5f872a6e2a4cb8" creator="" creation-date="04/11/2020 11:14:12" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="fe64e5a2f3ff41c7804a21131c57626f" cid="PROP004" type="property" name="NewAttribute4" style-class="" owner="2979aeace2cd45a28e5f872a6e2a4cb8" creator="" creation-date="04/11/2020 11:14:16" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="46a29132359643d5acb91eee61ad4504" cid="PROP005" type="property" name="NewAttribute5" style-class="" owner="2979aeace2cd45a28e5f872a6e2a4cb8" creator="" creation-date="04/11/2020 11:14:21" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="c99567db3991410a8964b6f0a2d739ee" cid="NOD002" type="node" name="Node2" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:14:28" visibility="package" />
+          <item id="7406d0beccce49f58abf0f9fea5f54e4" cid="NOD003" type="node" name="Node3" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:14:34" visibility="package" />
+          <item id="b78aa53634a04b8ca153ac1faa3b3100" cid="NOD004" type="node" name="Node4" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:15:21" visibility="package" />
+          <item id="a8561aea21f14c0083ac04caf3644bc9" cid="NOD005" type="node" name="Node5" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:15:30" visibility="package" />
+          <item id="2dac705197de44c386a67540a0624cdb" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:16:41" from="9f8c5d267d5f4c798a7fc4a104dee260" to="9f8c5d267d5f4c798a7fc4a104dee260" visibility="package">
+            <relation from="9f8c5d267d5f4c798a7fc4a104dee260" to="9f8c5d267d5f4c798a7fc4a104dee260" derived="false">
+              <start-role id="umlar-45d33774-b878-49a0-91a4-7bdfe02ff2d4" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-48f165c6-feaa-498a-ae8a-8ffeead454a7" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ac719d31affa45f7ad6cadcc96dc1f3c" cid="CPT001" type="component" name="Component1" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:17:31" visibility="package">
+            <stereotypes>
+              <stereotype name="component" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="ac719d31affa45f7ad6cadcc96dc1f3c_component_c" type="component" ref="" />
+            </stereotype-instances>
+            <component />
+          </item>
+          <item id="41489589150443fabd6f37cdce1c9032" cid="DPL001" type="deployment" name="" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:18:22" from="a8561aea21f14c0083ac04caf3644bc9" to="a8561aea21f14c0083ac04caf3644bc9" visibility="package">
+            <stereotypes>
+              <stereotype name="deploy" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="41489589150443fabd6f37cdce1c9032_deploy_c" type="deploy" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="a438685166d042d0847f140bb6f7d97c" cid="NOD006" type="node" name="Node6" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:19:34" visibility="package">
+            <owned-items>
+              <owned-item ref="78edad839c674bbd888217d737058cb9" />
+            </owned-items>
+            <attributes>
+              <attribute id="a1b63ab0bed4a49b788c521a66b44c4d511" cid="PROP006" name="NewAttribute1" creation-date="04/11/2020 11:19:41" property-ref="78edad839c674bbd888217d737058cb9" />
+            </attributes>
+            <operations>
+              <operation id="oc6f803d2f97f462386857d85fb849c77666" cid="ELEM002" name="NewOperation1" creation-date="04/11/2020 11:20:55" type="" type-id="" visibility="public" />
+              <operation id="o009f9d9ac865491caf0f5e7020100ab6721" cid="ELEM003" name="NewOperation2" creation-date="04/11/2020 11:20:57" type="" type-id="" visibility="public" />
+              <operation id="ob5fe507b60e34495bda6179678f33c63985" cid="ELEM004" name="NewOperation3" creation-date="04/11/2020 11:20:58" type="" type-id="" visibility="public" />
+              <operation id="o6d4454d9497a40b983f57358ed141dbb705" cid="ELEM005" name="NewOperation4" creation-date="04/11/2020 11:21:00" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="78edad839c674bbd888217d737058cb9" cid="PROP006" type="property" name="NewAttribute1" style-class="" owner="a438685166d042d0847f140bb6f7d97c" creator="" creation-date="04/11/2020 11:19:41" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="a4996b04341140c7a774e5f38b6cae6f" cid="NOD007" type="node" name="Node7" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:20:01" visibility="package" />
+          <item id="6d345c3e86da4dd28f1c23363548095b" cid="AF002" type="artifact" name="Artifact2" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:20:06" visibility="package">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="6d345c3e86da4dd28f1c23363548095b_artifact_c" type="artifact" ref="" />
+            </stereotype-instances>
+            <owned-items>
+              <owned-item ref="87885769e3d040afa02b358293c7280d" />
+              <owned-item ref="1711ee3027f74007b028d645bf2f8f21" />
+            </owned-items>
+            <artifact filename="">
+              <attributes>
+                <attribute id="a2f96a1e5b05d4a15b7cbf459ad1cb900473" cid="PROP007" name="NewAttribute1" creation-date="04/11/2020 11:21:26" property-ref="87885769e3d040afa02b358293c7280d" />
+                <attribute id="a076ecb43bd3640a78575b3a3792c21b797" cid="PROP008" name="NewAttribute2" creation-date="04/11/2020 11:21:28" property-ref="1711ee3027f74007b028d645bf2f8f21" />
+              </attributes>
+            </artifact>
+          </item>
+          <item id="5902d2ebc5fa44f6b96e3c67f06900b5" cid="CPT002" type="component" name="Component2" style-class="" change-tracking-state="added" creator="" creation-date="04/11/2020 11:20:31" visibility="package">
+            <stereotypes>
+              <stereotype name="component" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="5902d2ebc5fa44f6b96e3c67f06900b5_component_c" type="component" ref="" />
+            </stereotype-instances>
+            <owned-items>
+              <owned-item ref="107491cb7ec04afab1a17ebe40060934" />
+              <owned-item ref="2f026144d0ad4f568c97648f092b6df7" />
+            </owned-items>
+            <attributes>
+              <attribute id="a3fcaded076b34f9e826ce1d38ba6306a746" cid="PROP009" name="NewAttribute1" creation-date="04/11/2020 11:22:12" property-ref="107491cb7ec04afab1a17ebe40060934" />
+            </attributes>
+            <operations>
+              <operation id="o1c1a6e4aa34c459084c2e0e086be8490665" cid="ELEM007" name="Component2" creation-date="04/11/2020 11:22:11" type="" type-id="" visibility="public">
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="od5a2e661672f45289618c7457f979b39234" cid="ELEM008" name="NewOperation2" creation-date="04/11/2020 11:22:12" type="" type-id="" visibility="public" />
+            </operations>
+            <rules>
+              <rule id="a8ae259b650f34f6aa4830b4c385eecd6627" cid="ELEM009" name="NewConstraint1" creation-date="04/11/2020 11:22:13" constraint="" />
+            </rules>
+            <component />
+          </item>
+          <item id="87885769e3d040afa02b358293c7280d" cid="PROP007" type="property" name="NewAttribute1" style-class="" owner="6d345c3e86da4dd28f1c23363548095b" creator="" creation-date="04/11/2020 11:21:26" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="1711ee3027f74007b028d645bf2f8f21" cid="PROP008" type="property" name="NewAttribute2" style-class="" owner="6d345c3e86da4dd28f1c23363548095b" creator="" creation-date="04/11/2020 11:21:28" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="107491cb7ec04afab1a17ebe40060934" cid="PROP009" type="property" name="NewAttribute1" style-class="" owner="5902d2ebc5fa44f6b96e3c67f06900b5" creator="" creation-date="04/11/2020 11:22:12" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+        </abstract-items>
+        <layer id="ae435cc441384ef7b2b46ea558344589" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
+</sim-project>
