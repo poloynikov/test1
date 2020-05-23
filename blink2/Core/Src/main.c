@@ -68,6 +68,7 @@ int main(void)
 
 	uint32_t commit1_masterBranch = 5;
 	uint32_t commit1_masterBranch = 5;
+	uint32_t commit2_masterBranch = 5;
   /* USER CODE END 1 */
   
 
